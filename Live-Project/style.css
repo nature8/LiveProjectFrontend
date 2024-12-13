@@ -1,0 +1,250 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0; 
+    /*font-family: 'Montserrat', sans-serif;
+    
+  }*/
+  .heading-style{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: xx-large;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  /* Navigation Styles */
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu .menu-item {
+    margin-left: 70px;
+  }
+  
+  .menu .menu-item a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-weight: 600;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  .menu .menu-item a:hover {
+    color: #6f42c1; /* Purple hover effect */
+    transition: color 0.3s ease;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-content-between {
+    justify-content: space-between;
+  }
+  
+  .align-items-center {
+    align-items: center;
+  }
+  
+  *{
+    box-sizing: border-box;
+   
+  }
+
+  .footer-background{
+    background-color: rgb(49, 47, 47);
+    color: white;
+  }
+
+  .custom-container {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+.image-setup{
+    max-width: 100%;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.custom-image{
+  max-width: 100%;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.about-color{
+    color: #6f42c1;
+}
+
+.custom-text-color{
+    color:#bcb7b7;
+}
+
+.custom-container-content  {
+
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 100%;
+    object-fit: contain;
+    
+  }
+
+  .custom-service-image-style{
+    max-width: 100%;
+    height: 600px;
+    display: block;
+    object-fit: cover;
+    width: 200%;
+  }
+
+  .custom-centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+
+  .custom-centered1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-40%, -40%);
+  }
+
+  .custom-container-public {
+    width: 100%;
+    max-width: 1380px;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+  .publication-style{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    width: 500%;
+  }
+
+  .color-style {
+    color: #962db1;
+    
+  }
+
+  
+  .pub-color {
+    color: #8e8d8e;
+  }
+
+ /* .custom-container-content :hover{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000052;
+    transition: all 0.5s ease-in-out;
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+  }
+    */
+
+  /* .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+
+  .custom-image-style{
+    max-width: 100% ;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  /* .custom-image-style1{
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+  } */
+
+  .custom-image-style1 {
+    max-width: 100%;
+    height: 400px;
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.custom-container-content:hover .custom-image-style1 {
+    filter: brightness(50%); 
+}
+
+.custom-container-content:hover .centered {
+    opacity: 1; 
+}
+
+.custom-container-content:hover .custom-image-style {
+  filter: brightness(50%); 
+}
+
+.custom-container-content:hover .centered {
+  opacity: 1; 
+}
+
+/*.custom-font{
+    font-family: 'Bebas Neue', sans-serif;
+}*/
+
+.our-team-text {
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+    color: #BDBDBD;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.hollow-circle-list{
+  list-style-type: circle; 
+  padding-left: 50px; 
+}
+
+.container-img{
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+  height: 1000px;
+}
